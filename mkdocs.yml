@@ -12,14 +12,15 @@ docs_dir: workshop
 # Navigation
 nav:
   - Welcome:
-    - About the workshop: README.md
-  # - Workshop:
-  #   - Perform the steps to setup your project: project-setup/README.md
-  #   - Getting started with Python3: python3/README.md
-  #   - Using Python and Jupyter to Visualize data: data-visualization/README.md
-  #   - Using Pandas for data science: data-exploration-pandas/README.md
-  #   - Machine Learning with Scikit Learn: machine-learning-sklearn/README.md
-  - Workshop Resources:
+    - About this workshop: README.md
+  - Workshop:
+    - Python for ML Refresher: 01-python-and-pandas-refresher.md
+    - Regression: 02-regression.md
+    - AutoAI: 04-AutoAI.md
+    - Classification: 03-classification.md
+  - Summary:
+    - Wrap-up: 05-wrap-up.md
+  - Additional Resources:
       - IBM Developer: https://developer.ibm.com
 
 ## DO NOT CHANGE BELOW THIS LINE
@@ -36,13 +37,13 @@ theme:
   icon:
     logo: material/library
   features:
-    - navigation.tabs
+    # - navigation.tabs
     #- navigation.instant
+    - navigation.sections
   palette:
     scheme: default
     primary: blue
     accent: blue
-
 # Plugins
 plugins:
   - search
