@@ -36,7 +36,7 @@ We need to provision our Cloud Pak for Data as a Service instance. Cloud Pak for
     * If you do not have an IBMid, enter your email address and accept the terms checkbox in the `Create a new IBM Cloud Account` section. Then click the `Next` button to complete the process of creating a new account. See the [FAQ](#faq) section for help.
     * If you are a returning user, click on the `Log in with your IBMid` link.
       
-    !!! info inline end
+    !!! info
           If you are a returning user and you have watson services in a different region than the pre-selected one, you will see an error message telling you to select that region instead. See the [FAQ](#faq) section for help.
 
 [![CPDaaS login](../assets/images/setup/new-signup-page.png)](../assets/images/setup/new-signup-page.png)
@@ -57,7 +57,7 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 
 * Click on the `New project` button on the top. 
 
-    !!! info inline
+    !!! info
         If you already have existing projects, your screen will look different from the screenshot below. In that case, click on the `New project +` button on the top right.
 
 [![Start a new project](../assets/images/setup/cpd-new-project.png)](../assets/images/setup/cpd-new-project.png)
