@@ -36,11 +36,11 @@ We need to provision our Cloud Pak for Data as a Service instance. Cloud Pak for
     !!! info
           If you are a returning user and you have watson services in a different region than the pre-selected one, you will see an error message telling you to select that region instead. See the [FAQ](#faq) section for help.
 
-[![CPDaaS login](../assets/images/setup/new-signup-page.png)](../assets/images/setup/new-signup-page.png)
+[![CPDaaS login](../assets/images/setup/new-signup-page.png)](./assets/images/setup/new-signup-page.png)
 
 * The services required for IBM Cloud Pak for Data will be automatically provisioned for you. Once you see a message that says that the apps are ready to use, click on `Go to IBM Cloud Pak for Data`.
 
-[![CPDaaS ready](../assets/images/setup/cpdaas-ready.png)](../assets/images/setup/cpdaas-ready.png)
+[![CPDaaS ready](../assets/images/setup/cpdaas-ready.png)](./assets/images/setup/cpdaas-ready.png)
 
 ## 3. Create a project
 
@@ -50,42 +50,42 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 
 * Once you are on [Cloud Pak for Data as a Service](https://dataplatform.cloud.ibm.com). Click on the (☰) navigation menu on the top left, expand *Projects* and click on the *View all projects* link.
 
-[![(☰) Menu -> Projects](../assets/images/setup/menu-projects.png)](../assets/images/setup/menu-projects.png)
+[![(☰) Menu -> Projects](../assets/images/setup/menu-projects.png)](./assets/images/setup/menu-projects.png)
 
 * Click on the `New project` button on the top. 
 
     !!! info
         If you already have existing projects, your screen will look different from the screenshot below. In that case, click on the `New project +` button on the top right.
 
-[![Start a new project](../assets/images/setup/cpd-new-project.png)](../assets/images/setup/cpd-new-project.png)
+[![Start a new project](../assets/images/setup/cpd-new-project.png)](./assets/images/setup/cpd-new-project.png)
 
 * Click on `Create a project from a sample or file`.
 
-[![Create project from a file](../assets/images/setup/cpd-create-project-from-file.png)](../assets/images/setup/cpd-create-project-from-file.png)
+[![Create project from a file](../assets/images/setup/cpd-create-project-from-file.png)](./assets/images/setup/cpd-create-project-from-file.png)
 
 * Click on the **browse** link and in the file browser popup, navigate to where you downloaded the files for this lab. Then select the `intro_to_ml.zip`.
 
-[![Browse for project files](../assets/images/setup/browse-project-zip.png)](../assets/images/setup/browse-project-zip.png)
+[![Browse for project files](../assets/images/setup/browse-project-zip.png)](./assets/images/setup/browse-project-zip.png)
 
 * Give the project a name and optional description. You also need to provide an object storage instance for this project. If you have not previously created a Cloud Object Storage instance in your IBM Cloud account, you can create one now by clicking `Add`. *Note: If you do have an existing storage service, select it from the drop down list and click the `Create` button.*
 
-[![Project name](../assets/images/setup/cpd-project-name.png)](../assets/images/setup/cpd-project-name.png)
+[![Project name](../assets/images/setup/cpd-project-name.png)](./assets/images/setup/cpd-project-name.png)
 
 * A new tab opens up, where you can create the Cloud Object Service. By default, a `Lite` (Free) plan will be selected. Scroll down and update the name of your Cloud Object Storage service if you wish, and click `Create`.
 
-[![Create COS instance](../assets/images/setup/create-cos-instance.png)](../assets/images/setup/create-cos-instance.png)
+[![Create COS instance](../assets/images/setup/create-cos-instance.png)](./assets/images/setup/create-cos-instance.png)
 
 * The browser tab will automatically close when the Cloud Object Storage instance has been created. Back on IBM Cloud Pak for Data as a Service, click `Refresh`.
 
-[![Refresh COS](../assets/images/setup/refresh-cos.png)](../assets/images/setup/refresh-cos.png)
+[![Refresh COS](../assets/images/setup/refresh-cos.png)](./assets/images/setup/refresh-cos.png)
 
 * The newly created Cloud Object Storage instance will now be displayed under "Storage". Click `Create` to finish creating the project.
 
-[![Create project](../assets/images/setup/create-project.png)](../assets/images/setup/create-project.png)
+[![Create project](../assets/images/setup/create-project.png)](./assets/images/setup/create-project.png)
 
 * Once the project is succesfully created you will be brought to the project overview page (*Note:You may be presented with a project tour pop up window, go ahead and close it*)
 
-[![Import project success](../assets/images/setup/project-create-success.png)](../assets/images/setup/project-create-success.png)
+[![Import project success](../assets/images/setup/project-create-success.png)](./assets/images/setup/project-create-success.png)
 
 
 <!-- 
@@ -97,11 +97,11 @@ We'll use a data set from [Kaggle](https://www.kaggle.com/) for this workshop. Y
 
 * In your project, click on `Add to project +` and then choose the tile for `Data`. Alternately, under *Data assets* click `New data asset +`.
 
-[![Upload data](../assets/images/setup/cpd-upload-data.png)](../assets/images/setup/cpd-upload-data.png)
+[![Upload data](../assets/images/setup/cpd-upload-data.png)](./assets/images/setup/cpd-upload-data.png)
 
 * Wait on this page until the upload completes. You should see the file `insurance.csv` under your *Data assets*.
 
-[![Data upload completed](../assets/images/setup/cpd-data-upload-completed.png)](../assets/images/setup/cpd-data-upload-completed.png)
+[![Data upload completed](../assets/images/setup/cpd-data-upload-completed.png)](./assets/images/setup/cpd-data-upload-completed.png)
 
 You are now ready to move on to the next module of this workshop. 
 -->
