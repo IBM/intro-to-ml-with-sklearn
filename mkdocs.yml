@@ -39,7 +39,7 @@ theme:
     logo: material/library
   features:
     # - navigation.tabs
-    #- navigation.instant
+    - navigation.instant
     - navigation.sections
   palette:
     scheme: default
