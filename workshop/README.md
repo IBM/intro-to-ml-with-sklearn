@@ -22,4 +22,4 @@ Welcome to the workshop! In this workshop we'll be using Jupyter notebooks to le
 
 This workshop has been tested on [IBM Watson Studio and Cloud Pak for Data as a Service](https://dataplatform.cloud.ibm.com).
 
-The notebooks use `Python 3.7.10`.
+The notebooks use `Python 3.8`.
