@@ -13,6 +13,7 @@ docs_dir: workshop
 nav:
   - Welcome:
     - About this workshop: README.md
+    - Workshop Set Up: 00-project-setup.md
   - Workshop:
     - Python for ML Refresher: 01-python-and-pandas-refresher.md
     - Regression: 02-regression.md
@@ -70,6 +71,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - meta
+  
   - toc:
       permalink: true
   - pymdownx.arithmatex:
