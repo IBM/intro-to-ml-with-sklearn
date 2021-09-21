@@ -4,9 +4,9 @@ Before we get started with the workshop, you will need to download some assets a
 
 This section is broken up into the following steps:
 
-  - [1. Download Assets](#1-download-assets)
-  - [2. Create IBM Cloud account and service](#2-create-ibm-cloud-account-and-service)
-  - [3. Create a project](#3-create-a-project)
+  1. [Download Assets](#1-download-assets)
+  2. [Create IBM Cloud account and service](#2-create-ibm-cloud-account-and-service)
+  3. [Create a project](#3-create-a-project)
 
 !!! info
     You can click on any image in the instructions below to zoom in and see more details. When you do that just click on your browser's back button to return to the previous page.
