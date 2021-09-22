@@ -14,7 +14,13 @@ By the end of this module, the participant will have learned:
 
 ## About the DataSet
 
-<!-- todo -->
+In this tutorial, we use a data set that contains various information that a home buyer considers before buying a house. We use this data to analyze how well we would be able to predict the house price given all of the other relevant information. 
+
+![Scatter Plot of the Data](./assets/images/regression/scatter-plot.png)
+
+![Hist plot of the Data](./assets/images/regression/hist-plot.png)
+
+Pay close attention to them they do pre-processing sections of the notebook associated with this module. The steps should give you an idea of the kinds of processing needed to prepare the data for regression models.
 
 ## Open the Jupyter notebook
 
