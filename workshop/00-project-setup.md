@@ -19,9 +19,6 @@ Throughout this workshop, you'll be asked to run different notebooks. These arti
 [[Download]](http://ibm.biz/DDC2021-jumpstart-your-journey) | 
 [[Mirror]](https://github.com/IBM/ddc-2021-jumpstart-your-journey/raw/main/projects/jumpstart-your-journey.zip)
 
-
-
-
 ## 2. Create IBM Cloud account and service
 
 We need to provision our Cloud Pak for Data as a Service instance. Cloud Pak for Data provides you with an integrated set of capabilities for collecting and organizing your data into a trusted, unified view, and then creating and scaling AI models across your business.
@@ -83,10 +80,29 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 
 [![Create project](./assets/images/setup/create-project.png)](./assets/images/setup/create-project.png)
 
-* Once the project is succesfully created you will be brought to the project overview page (*Note:You may be presented with a project tour pop up window, go ahead and close it*)
+* Once the project is successfully created you will be brought to the project overview page (*Note:You may be presented with a project tour pop up window, go ahead and close it*)
 
 [![Import project success](./assets/images/setup/project-create-success.png)](./assets/images/setup/project-create-success.png)
 
+## 4. Create a Space for Machine Learning Deployments
+
+Cloud Pak for Data uses the concept of *Deployment Spaces* to configure and manage the deployment of a set of related deployable assets. These assets can be data files, machine learning models, etc.
+
+* Go the (☰) navigation menu and click **Deployments**.
+
+![(☰) Menu -> Analytics deployments](./assets/images/setup/cpd-menu-analytics-deployments.png)
+
+* Click on the **New deployment space +** button.
+
+![Add New deployment space](./assets/images/setup/cpd-new-deployment-space.png)
+
+* Give your deployment space a unique name, optional description, then click the **Create** button.
+
+![Deployment space name](./assets/images/setup/cpd-deployment-space-name.png)
+
+* From the deployment space creation pop up window, click on the **View new space** button to view your space.
+
+![Import project success](./assets/images/setup/cpd-depspace-create-success.png)
 
 <!-- 
 ## 4. Upload the data
@@ -120,4 +136,4 @@ A: Try creating a IBM Cloud account directly using [IBM Cloud Registration](http
 
 ## 6. Conclusion
 
-At this point we are done with this section. We have completed creating an IBM Cloud account, a Cloud Pak for Data as a Service instance, and the project that we will use in the rest of this workshop.
+At this point we are done with this section. We have completed creating an IBM Cloud account, a Cloud Pak for Data as a Service instance, the project that we will use in the rest of this workshop and the deployment space where we will deploy our ML models.
