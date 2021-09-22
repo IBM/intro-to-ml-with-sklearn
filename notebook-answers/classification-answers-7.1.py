@@ -1,4 +1,6 @@
 #Answers for section 7.1 in the classification notebook
+from sklearn.linear_model import LogisticRegression
+
 model_name = "Logistic Regression Classifier"
 
 logisticRegressionClassifier = LogisticRegression(random_state=0,multi_class='auto',solver='lbfgs',max_iter=1000)
