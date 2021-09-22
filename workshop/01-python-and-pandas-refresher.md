@@ -12,11 +12,12 @@ Note that while you could greatly benefit from the optional sections, you don't 
 
 From the [Python.org documentation](https://www.python.org/doc/essays/blurb/):
 
-```
-Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+!!! cite
+    Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+    
 
-Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective. 
-```
+    Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective. 
+
 
 You might think that **Python** is only for developers and people with computer science degrees. However, Python is great for beginners, even those with little coding experience because it’s free, open source, and runs on any platform. The Python packages documentation is great, and after an [introductory course](https://cognitiveclass.ai/learn/data-science-with-python), you have a good foundation to build on.
 
@@ -41,14 +42,14 @@ built on top of the Python programming language.
 
 Throughout this workshop, we will be using Pandas to load, explore, and manipulate the data into the format needed for training our Machine Learning models later.
 
-### What are Matplotlib and Seaborn
+### What is Seaborn
 
-While loading the data and exploring the statistical information about is useful, often times we find useful insight in visually inspecting the data. This is why there are numerous opensource libraries available in Python to enable data visualization. `matplotlib` and `seaborn` are two of the most popular libraries in this category. 
+While loading the data and exploring the statistical information about is useful, often times we find useful insight in visual representations of the data. This is why there are numerous open-source libraries available in Python to enable data visualization. `matplotlib` and `seaborn` are two of the most popular libraries in this category. 
 
 !!! info
-    **`seaborn` vs. `matplotlib`:** Keep in mind that `seaborn` is a higher level library wrapped around `matplotlib`. This means that if you can achieve what you need using `seaborn`, that route will almost always be simpler and quicker.
+    **`seaborn` vs. `matplotlib`:** `seaborn` is a higher level library wrapped around `matplotlib` and it is highly tailored to visualizing the data structures that `Pandas` uses. This means that if you can achieve what you need using `seaborn`, that route will almost always be simpler and quicker.
 
-If you need more details on how to customize your plots or looking for the syntax for creating specific plots, the best place to start is the [documentation for `matplotlib` ](https://matplotlib.org)and the [documentation for `seaborn`](https://seaborn.pydata.org) as they are filled with examples and sample code.
+If you need more details on how to customize your plots or looking for the syntax to create specific plots, the best place to start is the [documentation of `matplotlib` ](https://matplotlib.org)and the [documentation of `seaborn`](https://seaborn.pydata.org) as they are filled with examples and sample codes.
 
 ## Exercises 
 
@@ -68,10 +69,11 @@ For this workshop, you are only required to complete the refresher. However, if 
 
 4. Scroll down to the `Notebooks` section of the page and click on the pencil icon at the right of the `python-for-ml-refresher.ipynb` notebook.
 
-    !!! note
-        You will see more notebooks than just the one in this screenshot.
-
       ![open notebook](./assets/images/python-and-pandas/open-notebook.jpg)
+    
+    !!! note
+        You may see more notebooks than just the one in this screenshot.
+
 
 5. When the Jupyter notebook is loaded and the kernel is ready, we will be ready to start executing it in the next section.
 
