@@ -57,23 +57,51 @@ Make sure that you have followed the steps in the [project setup](./00-project-s
 
 ![Select pipeline](assets/images/autoai/select-pipeline.png)
 
-### Save the model
+### Save the pipeline as a model
 
 * The model evaluation page will show metrics for the experiment, feature transformations that were performed (if any), which features contribute to the model, and more details of the pipeline. Optionally, feel free to click through these views of the pipeline details. Then click on tthe **Save as** button to save the model. 
 
 ![Save model](assets/images/autoai/save_model.png)
 
-* On the next scren, select the asset type as **Model**. Keep the default name or change it, add an optional description and tags, and click **Create** to save it.
+* On the next screen, select the asset type as **Model**. Keep the default name or change it, add an optional description and tags, and click **Create** to save it.
 
 ![Save model - 2](assets/images/autoai/save-model-2.png)
 
-* You receive a notification to indicate that your model is saved to your project. Clicking **View in project** within the notification will bring you to the model that is saved in your project.
+* You will receive a notification to indicate that your model is saved to your project. Clicking **View in project** within the notification will bring you to the model that is saved in your project.
 
 ![Save model - success](assets/images/autoai/save-model-success.png)
 
 * If you go back to your project main page by going to the left-hand navigator and clicking on your project's name, you can see the model listed under **Models**.
 
 ![Model listed in project](assets/images/autoai/model-listed-in-project.png)
+
+### (Optional) Save the pipeline as a notebook
+
+* You can save pipelines generated in AutoAI experiments as notebooks if you want to view the code that created the model pipeline or interact with the model programmatically.
+
+* Go back to your AutoAI experiment by clicking on the name of the experiment under the AutoAI experiments section on your project main page.
+
+![Go to AutoAI experiment](assets/images/autoai/go-to-autoai-experiment.png)
+
+* Click on the name of the pipeline that you want to save.
+
+![Select pipeline](assets/images/autoai/select-pipeline.png)
+
+* To save the pipeline as a notebook, click **Save as**.
+
+![Save model](assets/images/autoai/save_model.png)
+
+* On the next screen, select the asset type as **Notebook**. Keep the default name or change it, add an optional description and tags, and click **Create** to save it.
+
+![Save notebook](assets/images/autoai/save-notebook.png)
+
+* You will receive a notification to indicate that your notebook is saved to your project. Clicking **View in project** within the notification will bring you to the notebook that is saved in your project.
+
+![Save notebook - success](assets/images/autoai/save-notebook-success.png)
+
+* If you go back to your project main page by going to the left-hand navigator and clicking on your project's name, you can see the notebook listed under **Notebooks**.
+
+![Notebook listed in project](assets/images/autoai/notebook-listed-in-project.png)
 
 ### Deploy the model
 
