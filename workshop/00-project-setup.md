@@ -88,7 +88,7 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 
 Cloud Pak for Data uses the concept of *Deployment Spaces* to configure and manage the deployment of a set of related deployable assets. These assets can be data files, machine learning models, etc.
 
-* Go the (☰) navigation menu and click **Deployments**.
+* Go the (☰) navigation menu, expand **Deployments** and click **View all spaces**.
 
 ![(☰) Menu -> Analytics deployments](./assets/images/setup/cpd-menu-analytics-deployments.png)
 
