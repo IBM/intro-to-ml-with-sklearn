@@ -54,7 +54,7 @@ If you need more details on how to customize your plots or looking for the synta
 
 ### Refresher
 
-For this workshop, you are only required to complete the refresher. However, if would like to start with simpler exercises to build your skills, check out the [Optional Exercises](#optional-exercises) section.
+For this workshop, you are only required to complete the refresher. However, if would like to start with simpler exercises to build your skills, check out the [Optional Introductory Exercises](#optional-introductory-exercises) section.
 
 #### Open the Jupyter notebook
 
@@ -87,7 +87,12 @@ You will run cells individually by highlighting each cell, then either click the
 * Finishing running all of the cells. Carefully read all of the markdown comments to gain some understanding of how data vizualization can be use to gain insight into the data set.
 
 
-### Optional Exercises 
+### Optional Introductory Exercises 
 
-There are additional notebooks in the file that you imported with names such as `optional-<library name>-exercises` where `<library name>` is the name of the library exercises included in that notebook. Feel free to explore these notebooks if you want to start with more basic exercises for each topic.
+There are additional notebooks in the file that you imported with names such as `optional-<library name>-exercises` where `<library name>` is the name of the library exercises included in that notebook. 
 
+You can follow these notebooks first if you would like to start with more introductory exercises first to get up to speed with the tools used in this workshop
+
+To open these notebooks, follow the steps outlined in [Open The Jupyter Notebook](#open-the-jupyter-notebook) and in step 4, open one of the optional notebooks.
+
+![Optional Notebooks](./assets/images/python-and-pandas/optional-notebooks.jpg)
