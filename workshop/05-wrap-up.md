@@ -20,8 +20,8 @@ You can learn more about Machine Learning using these resources:
 * [AI Research at IBM](https://www.research.ibm.com/artificial-intelligence/)
 >>
 * [Cloud Pak for Data Resources](https://www.ibm.com/products/cloud-pak-for-data/resources)
-* [Cloud Pak for Data Hub](https://www.ibm.com/products/cloud-pak-for-data/resources)
-* [Watson Studio Overview](https://www.ibm.com/products/cloud-pak-for-data/resources)
+* [Cloud Pak for Data Hub](https://www.ibm.com/support/producthub/icpdata/)
+* [Watson Studio Overview](https://www.ibm.com/products/cloud-pak-for-data)
 * [Watson Studio Learning Center Videos](https://www.youtube.com/playlist?list=PLzpeuWUENMK3u3j_hffhNZX3-Jkht3N6V)
 * [Watson Machine Learning Docs](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-overview.html)
 >>
