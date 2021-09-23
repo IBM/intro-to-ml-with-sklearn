@@ -1,8 +1,8 @@
 # Classification Exercise
 
-## What is classification in machine learning?¶
+## What is classification in machine learning?
 
-Classification in machine learning is when the feature to be predicted contains categories of values. Each of these categories is considered as a class into which the predicted value falls and hence has its name, classification. An example of this could be predicting the parts of speech (verb, noun, adjective, etc.) of words with a given text. 
+Classification in machine learning is when the feature to be predicted contains categories of values. Each of these categories is considered as a class into which the predicted value falls and hence has its name, classification. An example of this could be predicting the parts of speech (verb, noun, adjective, etc.) of words within a given text. 
 
 ## Objectives
 
@@ -15,9 +15,7 @@ By the end of this module, the participant will have learned:
 
 ## About the DataSet
 
-In this tutorial, we use a data set that contains information about customers of an online trading platform to classify whether a given customer’s probability of churn will be high, medium, or low. This provides a good example to learn how a classification model is built from start to end. The three classes that prediction will fall under are high, medium, and low. Now,
-
-Data is available to us in the form of a .csv file and is imported using the pandas library. We use numpy and matplotlib to get some statistics and visualize data.
+In this tutorial, we use a data set that contains information about customers of an online trading platform to classify whether a given customer’s probability of churn will be high, medium, or low. This provides a good example to learn how a classification model is built from start to end. The three classes that prediction will fall under are high, medium, and low. The data is available to us in the form of a .csv file and is imported using the pandas library. We use numpy and matplotlib to get some statistics and visualize data.
 
 ![Hist plot of the Data](./assets/images/classification/hist-plot-churnrisk.png)
 
@@ -33,12 +31,12 @@ Pay close attention to the pre-processing sections of the notebook associated wi
 
 3. From your `Project` overview page, click on the *`Assets`* tab to open the assets page where your project assets are stored and organized.
 
-4. Scroll down to the `Notebooks` section of the page and click on the pencil icon at the right of the `regression-exercises.ipynb` notebook.
+4. Scroll down to the `Notebooks` section of the page and click on the pencil icon at the right of the `classification-exercise.ipynb` notebook.
 
       ![open notebook](./assets/images/classification/classification-notebook.png)
     
     !!! note
-        You may see more notebooks than just the one in this screenshot.
+        You may see additional notebooks that differ from the ones in this screenshot
 
 
 5. When the Jupyter notebook is loaded and the kernel is ready, we will be ready to start executing it in the next section.
@@ -47,12 +45,12 @@ Pay close attention to the pre-processing sections of the notebook associated wi
 
 Spend some time looking through the sections of the notebook to get an overview. A notebook is composed of text (markdown or heading) cells and code cells. The markdown cells provide comments on what the code is designed to do.
 
-You will run cells individually by highlighting each cell, then either click the `Run` button at the top of the notebook or hitting the keyboard short cut to run the cell (`Shift + Enter` but can vary based on platform). While the cell is running, an asterisk (`[*]`) will show up to the left of the cell. When that cell has finished executing a sequential number will show up (i.e. `[17]`).
+You will run cells individually by highlighting each cell, then either click the `Run` button at the top of the notebook or hit the keyboard short cut to run the cell (`Shift + Enter` but can vary based on platform). While the cell is running, an asterisk (`[*]`) will show up to the left of the cell. When that cell has finished executing a sequential number will show up (i.e. `[17]`).
 
 !!! note
     Some of the comments in the notebook (those in bold red) are directions for you to modify specific sections of the code. Perform any changes as indicated before running / executing the cell.
 
-* Finishing running all of the cells. Carefully read all of the markdown comments to gain some understanding of how data visualization can be use to gain insight into the data set.
+* Finish running all of the cells. Carefully read all of the markdown comments to gain some understanding of how a classification model is built.
 
 
 
