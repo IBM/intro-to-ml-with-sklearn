@@ -45,13 +45,10 @@ Pay close attention to the pre-processing sections of the notebook associated wi
 
 Spend some time looking through the sections of the notebook to get an overview. A notebook is composed of text (markdown or heading) cells and code cells. The markdown cells provide comments on what the code is designed to do.
 
-You will run cells individually by highlighting each cell, then either click the `Run` button at the top of the notebook or hit the keyboard short cut to run the cell (`Shift + Enter` but can vary based on platform). While the cell is running, an asterisk (`[*]`) will show up to the left of the cell. When that cell has finished executing a sequential number will show up (i.e. `[17]`).
+You will run cells individually by highlighting each cell, then either click the `Run` button at the top of the notebook. While the cell is running, an asterisk (`[*]`) will show up to the left of the cell. When that cell has finished executing a sequential number will show up (i.e. `[17]`).
 
-!!! note
-    Some of the comments in the notebook (those in bold red) are directions for you to modify specific sections of the code. Perform any changes as indicated before running / executing the cell.
-
-* Finish running all of the cells. Carefully read all of the markdown comments to gain some understanding of how a classification model is built.
-
+!!! hint
+    You can also run a cell by pressing `Shift + Enter` on your keyboard instead of clicking the run (:material-play:) button.
 
 
 ## Summary
