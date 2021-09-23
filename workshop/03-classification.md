@@ -15,7 +15,7 @@ By the end of this module, the participant will have learned:
 
 ## About the DataSet
 
-In this tutorial, we use a data set that contains information about customers of an online trading platform to classify whether a given customer’s probability of churn will be high, medium, or low. This provides a good example to learn how a classification model is built from start to end. The three classes that prediction will fall under are high, medium, and low. The data is available to us in the form of a .csv file and is imported using the pandas library. We use numpy and matplotlib to get some statistics and visualize data.
+In this tutorial, we use a data set that contains information about customers of an online trading platform to classify whether a given customer’s probability of churn will be high, medium, or low. This provides a good example to learn how a classification model is built from start to end. The three classes that prediction will fall under are high, medium, and low. The data is available to us in the form of a .csv file and is imported using the *pandas* library. We use *numpy* and *matplotlib* to get some statistics and visualize data.
 
 ![Hist plot of the Data](./assets/images/classification/hist-plot-churnrisk.png)
 
@@ -36,7 +36,7 @@ Pay close attention to the pre-processing sections of the notebook associated wi
       ![open notebook](./assets/images/classification/classification-notebook.png)
     
     !!! note
-        You may see additional notebooks that differ from the ones in this screenshot
+        You may see additional notebooks that differ from the ones in this screenshot.
 
 
 5. When the Jupyter notebook is loaded and the kernel is ready, we will be ready to start executing it in the next section.

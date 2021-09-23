@@ -1,6 +1,6 @@
 # Regression Exercise
 
-## What is regression in machine learning?¶
+## What is regression in machine learning?
 
 Regression in machine learning is a technique used to predict a **continuous value** (also known as the *target feature*) based on a set of input values (*features*). An example of this could be predicting prices of residential houses based on certain properties of the houses (eg. zip code, area, floors, garage type, etc). 
 
