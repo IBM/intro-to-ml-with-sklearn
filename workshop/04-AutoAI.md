@@ -9,7 +9,7 @@ Using AutoAI, you can build and deploy a machine learning model with sophisticat
 
 We will use a public dataset to build and deploy model pipelines, and analyse the outcome.
 
-## Set up
+### Set up
 
 Make sure that you have followed the steps in the [project setup](./00-project-setup.md) to create a project and set up your IBM Cloud account and Cloud Pak for Data as a Service.
 
