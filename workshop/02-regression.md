@@ -2,14 +2,14 @@
 
 ## What is regression in machine learning?¶
 
-Regression in machine learning is a technique that to predict a **continuous value** (also known as the *target feature*) based on a set of input values (*features*). An example of this could be predicting price of residential houses based on certain properties of the house (eg. zip code, area, floors, garage type, etc). 
+Regression in machine learning is a technique used to predict a **continuous value** (also known as the *target feature*) based on a set of input values (*features*). An example of this could be predicting prices of residential houses based on certain properties of the houses (eg. zip code, area, floors, garage type, etc). 
 
 ## Objectives
 
 By the end of this module, the participant will have learned:
 
 - What regression in Machine Learning is
-- Basics of Data prepration for Regression Algorithms
+- Basics of Data preparation for Regression Algorithms
 - Basics of training a Regression Model using `sklearn`
 
 ## About the DataSet
@@ -20,7 +20,7 @@ In this tutorial, we use a data set that contains various information that a hom
 
 ![Hist plot of the Data](./assets/images/regression/hist-plot.png)
 
-Pay close attention to them they do pre-processing sections of the notebook associated with this module. The steps should give you an idea of the kinds of processing needed to prepare the data for regression models.
+Pay close attention to the pre-processing sections of the notebook associated with this module. The steps should give you an idea of the kinds of processing needed to prepare the data for regression models.
 
 ## Open the Jupyter notebook
 
@@ -46,20 +46,20 @@ Pay close attention to them they do pre-processing sections of the notebook asso
 
 Spend some time looking through the sections of the notebook to get an overview. A notebook is composed of text (markdown or heading) cells and code cells. The markdown cells provide comments on what the code is designed to do.
 
-You will run cells individually by highlighting each cell, then either click the `Run` button at the top of the notebook or hitting the keyboard short cut to run the cell (`Shift + Enter` but can vary based on platform). While the cell is running, an asterisk (`[*]`) will show up to the left of the cell. When that cell has finished executing a sequential number will show up (i.e. `[17]`).
+You will run cells individually by highlighting each cell, then either click the `Run` button at the top of the notebook or hit the keyboard short cut to run the cell (`Shift + Enter` but can vary based on platform). While the cell is running, an asterisk (`[*]`) will show up to the left of the cell. When that cell has finished executing a sequential number will show up (i.e. `[17]`).
 
 !!! note
     Some of the comments in the notebook (those in bold red) are directions for you to modify specific sections of the code. Perform any changes as indicated before running / executing the cell.
 
-* Finishing running all of the cells. Carefully read all of the markdown comments to gain some understanding of how data visualization can be use to gain insight into the data set.
+* Finish running all of the cells. Carefully read all of the markdown comments to gain some understanding of how a regression model is built.
 
 
 
 ## Summary
 
-In this module we learned the basics of unsupervised machine learning using linear regression and built our first machine learning model. You should not have the basic building blocks that you need to Start using different algorithms to explore your data and use it to build models.
+In this module we learned the basics of supervised machine learning using linear regression and built our first machine learning model. You should now have the basic building blocks that you need to Start using different algorithms to explore your data and use it to build models.
 
-Keep in mind that while this module is a great starting point, there is a lot more to be explored in the world of unsupervised machine learning and various types of algorithms to learn about. 
+Keep in mind that while this module is a great starting point, there is a lot more to be explored in the world of supervised machine learning and various types of algorithms to learn about. 
 
 To learn more and for a more in-depth survey of commonly used algorithms in this field, click on the learn more button below and follow the learning path at your own time.
 
