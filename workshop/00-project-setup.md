@@ -7,13 +7,14 @@ This section is broken up into the following steps:
   1. [Download Assets](#1-download-assets)
   2. [Create IBM Cloud account and service](#2-create-ibm-cloud-account-and-service)
   3. [Create a project](#3-create-a-project)
+  4. [Create a Space for Machine Learning Deployments](#4-create-a-space-for-machine-learning-deployments)
 
 !!! info
     You can click on any image in the instructions below to zoom in and see more details. When you do that just click on your browser's back button to return to the previous page.
 
 ## 1. Download Assets
 
-Throughout this workshop, you'll be asked to run different notebooks. These artifacts have been collected in the following zip file which you can download using the links below. For each line below, click on the `[Download]` link to get the file. If the link isn't working for you, try clicking the `[Mirror]` to get it from a backup server. You'll need these files in the next sections.
+Throughout this workshop, you'll be asked to run different notebooks. These artifacts have been collected in the following zip file which you can download using the `[Download the project]` button below. You'll need this zip file in the next sections.
 
 [Download the project](https://github.com/IBM/intro-to-ml-with-sklearn/raw/main/workshop/assets/project-archives/intro-to-ml-cp4daas.zip){ .md-button }
 <!-- * Intro to ML with sklearn [Cloud Pak for Data Project] -  -->
@@ -49,7 +50,7 @@ We need to provision our Cloud Pak for Data as a Service instance. Cloud Pak for
 
 In Cloud Pak for Data, we use the concept of a project to collect / organize the resources used to achieve a particular goal (resources to build a solution to a problem). Your project resources can include data, collaborators, and analytic assets like notebooks and models, etc.
 
-* Once you are on [Cloud Pak for Data as a Service](https://dataplatform.cloud.ibm.com). Click on the (☰) navigation menu on the top left, expand *Projects* and click on the *View all projects* link.
+* Once you are on [Cloud Pak for Data as a Service](https://dataplatform.cloud.ibm.com), click on the (☰) navigation menu on the top left, expand *Projects* and click on the *View all projects* link.
 
     [![(☰) Menu -> Projects](./assets/images/setup/menu-projects.png)](./assets/images/setup/menu-projects.png)
 
@@ -64,9 +65,9 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 
     [![Create project from a file](./assets/images/setup/cpd-create-project-from-file.png)](./assets/images/setup/cpd-create-project-from-file.png)
 
-* Click on the **browse** link and in the file browser popup, navigate to where you downloaded the files for this lab. Then select the `intro-to-ml-cp4daas.zip`. Click `Create`.
+* Click on the **browse** link and in the file browser popup, navigate to where you downloaded the files for this lab. Then select the `intro-to-ml-cp4daas.zip`.
 
-    [![Browse for project files](./assets/images/setup/browse-project-zip.jpg)](./assets/images/setup/browse-project-zip.jpg)
+    [![Browse for project files](./assets/images/setup/browse-project-zip.jpg)](./assets/images/setup/browse-project-zip.png)
 
     !!! attention
         Remember that you need the zipped file. If you have accidentally unzipped it, download the file again from the [Download Assets](#1-download-assets) section.
@@ -87,7 +88,7 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 
     [![Create project](./assets/images/setup/create-project.png)](./assets/images/setup/create-project.png)
 
-* Once the project is successfully created you will be brought to the project overview page (*Note:You may be presented with a project tour pop up window, go ahead and close it*)
+* Once the project is successfully created you will see a popup notification about the same. Click on `View new project` in the pop up and you will be brought to the project overview page. (*Note: You may be presented with a project tour pop up window, go ahead and close it*)
 
     [![Import project success](./assets/images/setup/project-create-success.png)](./assets/images/setup/project-create-success.png)
 
@@ -97,19 +98,19 @@ Cloud Pak for Data uses the concept of *Deployment Spaces* to configure and mana
 
 * Go the (☰) navigation menu, expand **Deployments** and click **View all spaces**.
 
-![(☰) Menu -> Analytics deployments](./assets/images/setup/cpd-menu-analytics-deployments.png)
+[![(☰) Menu -> Analytics deployments](./assets/images/setup/cpd-menu-analytics-deployments.png)](./assets/images/setup/cpd-menu-analytics-deployments.png)
 
 * Click on the **New deployment space +** button.
 
-![Add New deployment space](./assets/images/setup/cpd-new-deployment-space.png)
+[![Add New deployment space](./assets/images/setup/cpd-new-deployment-space.png)](./assets/images/setup/cpd-new-deployment-space.png)
 
 * Give your deployment space a unique name, optional description, then click the **Create** button.
 
-![Deployment space name](./assets/images/setup/cpd-deployment-space-name.png)
+[![Deployment space name](./assets/images/setup/cpd-deployment-space-name.png)](./assets/images/setup/cpd-deployment-space-name.png)
 
 * From the deployment space creation pop up window, click on the **View new space** button to view your space.
 
-![Import project success](./assets/images/setup/cpd-depspace-create-success.png)
+[![Import project success](./assets/images/setup/cpd-depspace-create-success.png)](./assets/images/setup/cpd-depspace-create-success.png)
 
 <!-- 
 ## 4. Upload the data
@@ -129,7 +130,7 @@ We'll use a data set from [Kaggle](https://www.kaggle.com/) for this workshop. Y
 You are now ready to move on to the next module of this workshop. 
 -->
 
-## FAQ
+## 5. FAQ
  
 **Q1: I get the `That email address is already registered to an IBM Cloud account.` messsage.**
 
