@@ -10,7 +10,7 @@ Note that while you could greatly benefit from the optional sections, you don't 
     3. [What is Pandas](#13-what-is-pandas)
     4. [What is Seaborn](#14-what-is-seaborn)
 2. [Exercises](#2-exercises)
-    1. [Refresher](#21refresher)
+    1. [Refresher](#21-refresher)
         - [Open the Jupyter notebook](#open-the-jupyter-notebook)
         - [Run the Jupyter notebook](#run-the-jupyter-notebook)
     2. [Optional Introductory Exercises](#22-optional-introductory-exercises)
@@ -33,7 +33,7 @@ Jupyter notebooks are an open-source web application that allows you to create a
 
 !!! info
     In this workshop we will use IBM Watson Studio to run a notebook.
-    If you have not already done so, make sure that you do set up your account by following the [project setup](./00-project-setup.md) module.
+    If you have not already done so, make sure that you do set up your account by following the [workshop setup](./00-project-setup.md) module.
 
 
 ### 1.3 What is Pandas
@@ -60,11 +60,11 @@ For this workshop, you are only required to complete the refresher. However, if 
 
 #### Open the Jupyter notebook
 
-1. Go the (☰) navigation menu and under the *Projects* section click on *`All Projects`*.
+1. Go the (☰) navigation menu and under the *Projects* section click on *`View all projects`*.
 
       ![(☰) Menu -> Projects](./assets/images/python-and-pandas/cpd-menu-projects.png)
 
-2. Click the project name you created in the pre-work section.
+2. Click the project name you created in the workshop setup section.
 
 3. From your `Project` overview page, click on the *`Assets`* tab to open the assets page where your project assets are stored and organized.
 
