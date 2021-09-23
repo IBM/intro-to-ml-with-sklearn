@@ -27,7 +27,7 @@ Pay close attention to the pre-processing sections of the notebook associated wi
 
 1. Go the (☰) navigation menu and under the *Projects* section click on *`All Projects`*.
 
-      ![(☰) Menu -> Projects](./assets/images/python-and-pandas/cpd-menu-projects.jpg)
+      ![(☰) Menu -> Projects](./assets/images/python-and-pandas/cpd-menu-projects.png)
 
 2. Click the project name you created in the [Workshop Setup](00-project-setup.md) section.
 
