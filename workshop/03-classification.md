@@ -19,7 +19,7 @@ In this tutorial, we use a data set that contains information about customers of
 
 Data is available to us in the form of a .csv file and is imported using the pandas library. We use numpy and matplotlib to get some statistics and visualize data.
 
-![Hist plot of the Data](./assets/images/regression/hist-plot-churnrisk.png)
+![Hist plot of the Data](./assets/images/classification/hist-plot-churnrisk.png)
 
 Pay close attention to the pre-processing sections of the notebook associated with this module. The steps should give you an idea of the kinds of processing needed to prepare the data for classification models.
 
@@ -62,4 +62,4 @@ In this module we learned the basics of supervised machine learning using the Na
 
 To learn more and for a more in-depth survey of commonly used classification algorithms, click on the learn more button below and follow the learning path at your own time.
 
-[Learn More about Regression](https://developer.ibm.com/learningpaths/learning-path-machine-learning-for-developers/learn-classification-algorithms/){ .md-button .md-button--primary }
+[Learn More about Classification](https://developer.ibm.com/learningpaths/learning-path-machine-learning-for-developers/learn-classification-algorithms/){ .md-button .md-button--primary }
